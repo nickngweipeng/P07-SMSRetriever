@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDBDB"
+    android:orientation="vertical"
+    tools:context="com.example.nickng.p07_smsretriever.FirstFragmentSMS">
+
+    <TextView
+        android:id="@+id/tvFrag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Only SMS with this word" />
+
+    <EditText
+        android:id="@+id/etSms2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnRetrieveSms2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrieve Sms" />
+
+    <TextView
+        android:id="@+id/tvSmsReceive2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
